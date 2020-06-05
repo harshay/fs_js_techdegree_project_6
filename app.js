@@ -18,7 +18,7 @@ const app = express();
 app.set('view engine','pug'); 
 
 //index
-app.get('/views/',(req,res) => { 
+app.get('/views',(req,res) => { 
 
     res.render('index'); 
 
