@@ -12,6 +12,7 @@
 //locals meaning reference
 //https://stackoverflow.com/questions/32688857/what-is-meaning-of-locals-in-res-render-node-js
 //https://gist.github.com/joepie91/c0069ab0e0da40cc7b54b8c2203befe1
+//https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/
 
  ///////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -38,8 +39,8 @@ app.get('/',(req,res) => {
 
 });
 
-//index
-app.get('/',(req,res) => { 
+//about
+app.get('/about',(req,res) => { 
 
     res.render('about'); 
 
