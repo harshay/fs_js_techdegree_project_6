@@ -1,0 +1,58 @@
+{
+
+    "projects" : [
+
+        {
+
+            "id" : 0,
+            "project_name" : "Random Quote Generator",
+            "technologies" : ["Javascript", "HTML", "CSS"], 
+            "live_link" : "", 
+            "github_link" : "https://github.com/harshay/fs_js_techdegree_project_1",        
+            "img_urls"  : ["images/project_1_img_1_jpeg","images/project_1_img_2_jpeg"]          
+
+        },
+        {
+
+            "id" : 1,
+            "project_name" : "List Pagination and Filtering",
+            "technologies" : ["Javascript", "HTML", "CSS"], 
+            "live_link" : "", 
+            "github_link" : "https://github.com/harshay/fs_js_techdegree_project_2",        
+            "img_urls"  : ["images/project_2_img_1_jpeg","images/project_2_img_2_jpeg"]  
+
+        },
+        {
+
+            "id" : 2,
+            "project_name" : "Interactive Form",
+            "technologies" : ["Javascript", "HTML", "CSS"], 
+            "live_link" : "", 
+            "github_link" : "https://github.com/harshay/fs_js_techdegree_project_3",        
+            "img_urls"  : ["images/project_3_img_1_jpeg","images/project_3_img_2_jpeg"]  
+
+        },
+        {
+
+            "id" : 3,
+            "project_name" : "OOP Game Show App",
+            "technologies" : ["Javascript", "HTML", "CSS"], 
+            "live_link" : "", 
+            "github_link" : "https://github.com/harshay/fs_js_techdegree_project_4",        
+            "img_urls"  : ["images/project_4_img_1_jpeg","images/project_4_img_2_jpeg"]  
+
+        },
+        {
+
+            "id" : 4,
+            "project_name" : "Public API Requests",
+            "technologies" : ["Javascript", "HTML", "CSS"], 
+            "live_link" : "", 
+            "github_link" : "https://github.com/harshay/fs_js_techdegree_project_5",        
+            "img_urls"  : ["images/project_5_img_1_jpeg","images/project_5_img_2_jpeg"]  
+
+        }
+        
+    ]
+
+}
