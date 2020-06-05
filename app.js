@@ -10,7 +10,11 @@
 const express = require('express'); 
 
 //create express application 
-const app = express(); 
+const app = express();
+
+//import json data file 
+const data = require('data.json').projects;
+
 
 //Optionally - the path module which can be used when setting the absolute path in the express.static function.
 
