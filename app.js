@@ -12,10 +12,16 @@
 //locals meaning reference
 //https://stackoverflow.com/questions/32688857/what-is-meaning-of-locals-in-res-render-node-js
 //https://gist.github.com/joepie91/c0069ab0e0da40cc7b54b8c2203befe1
+
+//requiring modules and defining path 
 //https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/
+
+//res locals explained in express
+//https://www.youtube.com/watch?v=IuqhkjkcXbo
 
  ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+ //import express module
 const express = require('express'); 
 
 //create express application 
@@ -25,21 +31,22 @@ const app = express();
 // use './' to move up/outside the node_modules folder as the file is in the root
 const data = require('./data.json');
 
-//Optionally - the path module which can be used when setting the absolute path in the express.static function.
-
 //set up templating engine  
 app.set('view engine','pug');
 
 //use a static route and the express.static method to serve the static files located in the public folder
+app.use('/static', express.static('public'));
 
-//index
+//render and return the ; index page
 app.get('/',(req,res) => { 
 
+    res.locals.index_heading = "Harshay's Developer Portfolio";
+    res.locals = data.projects; 
     res.render('index'); 
 
 });
 
-//about
+//render and return the ; about page 
 app.get('/about',(req,res) => { 
 
     res.render('about'); 
@@ -48,6 +55,7 @@ app.get('/about',(req,res) => {
 
 //set up development server
 app.listen(3000);
+
 
 
 
