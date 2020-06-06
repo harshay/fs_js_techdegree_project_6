@@ -22,6 +22,9 @@
 //pug loop explained
 //https://www.youtube.com/watch?v=4ciMkWOAGRY 
 
+//pug cheatsheet
+//https://devhints.io/pug
+
  ///////////////////////////////////////////////////////////////////////////////////////////////////
 
  //import express module
@@ -40,6 +43,9 @@ app.set('view engine','pug');
 //use a static route and the express.static method to serve the static files located in the public folder
 app.use('/static', express.static('public'));
 
+//skills array
+const about_skills = ['HTML','CSS','Javascript','Python','Machine Learning'];
+
 //render and return the ; index page
 app.get('/',(req,res) => { 
 
@@ -51,6 +57,27 @@ app.get('/',(req,res) => {
     res.render('index'); 
 
 });
+
+//render and return the ; about page 
+app.get('/about',(req,res) => { 
+
+    res.locals.about_name  = 'Harshay';
+    res.locals.about_title = 'Full Stack Javascript Developer';
+    res.locals.about_elevator_pitch = "I'm a Web Developer & Treehouse Techdegree Graduate";
+    res.locals.about_contact_number = '0044-79380*****';
+    res.locals.about_email = 'harshaykr@hotmail.com';
+    res.locals.about_skills_array =  about_skills; 
+    res.locals.about_github_link = 'https://github.com/harshay';
+    res.locals.about_linkedin_link = 'https://www.linkedin.com/in/harshay-r-61a4a02a/';
+    res.locals.about_twitter_link = 'https://https://twitter.com/HarshayR';
+
+    res.render('about'); 
+
+});
+
+//set up development server
+app.listen(3000);
+
 
 /*
 
@@ -66,18 +93,3 @@ app.get('/',(req,res) => {
           img.thumbnail(src='https://placehold.it/550x550')
           h5 Title
 */
-
-//render and return the ; about page 
-app.get('/about',(req,res) => { 
-
-    res.render('about'); 
-
-});
-
-//set up development server
-app.listen(3000);
-
-
-
-
-
