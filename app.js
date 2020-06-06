@@ -19,6 +19,9 @@
 //res locals explained in express
 //https://www.youtube.com/watch?v=IuqhkjkcXbo
 
+//pug loop explained
+//https://www.youtube.com/watch?v=4ciMkWOAGRY 
+
  ///////////////////////////////////////////////////////////////////////////////////////////////////
 
  //import express module
@@ -40,11 +43,29 @@ app.use('/static', express.static('public'));
 //render and return the ; index page
 app.get('/',(req,res) => { 
 
+    //set variables
     res.locals.index_heading = "Harshay's Developer Portfolio";
-    res.locals = data.projects; 
+    res.locals.data_obj_array = data.projects; 
+    res.locals.portfolio_description = "Web Development & Data Science Projects";
+
     res.render('index'); 
 
 });
+
+/*
+
+//img, link tags loop code
+
+      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
+      
+      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
+      
+      //- Here's what the Pug for each project example should look like. 
+.cell
+        a(href='#')
+          img.thumbnail(src='https://placehold.it/550x550')
+          h5 Title
+*/
 
 //render and return the ; about page 
 app.get('/about',(req,res) => { 
