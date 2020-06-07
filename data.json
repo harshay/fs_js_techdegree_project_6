@@ -9,7 +9,7 @@
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_1",        
-            "img_urls"  : ["images/project_1_img_1_jpeg","images/project_1_img_2_jpeg"]          
+            "img_urls"  : ["http://localhost:3000/static/images/project_1_img_1_jpeg.jpg","http://localhost:3000/static/images/project_1_img_2_jpeg.jpg"]          
 
         },
         {
@@ -19,7 +19,7 @@
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_2",        
-            "img_urls"  : ["images/project_2_img_1_jpeg","images/project_2_img_2_jpeg"]  
+            "img_urls"  : ["http://localhost:3000/static/images/project_2_img_1_jpeg.jpg","http://localhost:3000/static/images/project_2_img_2_jpeg.jpg"]  
 
         },
         {
@@ -29,7 +29,7 @@
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_3",        
-            "img_urls"  : ["images/project_3_img_1_jpeg","images/project_3_img_2_jpeg"]  
+            "img_urls"  : ["http://localhost:3000/static/images/project_3_img_1_jpeg.jpg","http://localhost:3000/static/images/project_3_img_2_jpeg.jpg"]  
 
         },
         {
@@ -39,7 +39,7 @@
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_4",        
-            "img_urls"  : ["images/project_4_img_1_jpeg","images/project_4_img_2_jpeg"]  
+            "img_urls"  : ["http://localhost:3000/static/images/project_4_img_1_jpeg.jpg","http://localhost:3000/static/images/project_4_img_2_jpeg.jpg"]  
 
         },
         {
@@ -49,7 +49,7 @@
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_5",        
-            "img_urls"  : ["images/project_5_img_1_jpeg","images/project_5_img_2_jpeg"]  
+            "img_urls"  : ["http://localhost:3000/static/images/project_5_img_1_jpeg.jpg","http://localhost:3000/static/images/project_5_img_2_jpeg.jpg"]  
 
         }
         
