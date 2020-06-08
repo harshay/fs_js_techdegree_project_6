@@ -6,6 +6,7 @@
 
             "id" : 0,
             "project_name" : "Random Quote Generator",
+            "description" : "Random Quote Generator",
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_1",        
@@ -16,6 +17,7 @@
 
             "id" : 1,
             "project_name" : "List Pagination and Filtering",
+            "description" : "List Pagination and Filtering",
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_2",        
@@ -26,6 +28,7 @@
 
             "id" : 2,
             "project_name" : "Interactive Form",
+            "description" : "Interactive Form",
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_3",        
@@ -36,6 +39,7 @@
 
             "id" : 3,
             "project_name" : "OOP Game Show App",
+            "description" : "OOP Game Show App",
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_4",        
@@ -46,6 +50,7 @@
 
             "id" : 4,
             "project_name" : "Public API Requests",
+            "description" : "Public API Requests",
             "technologies" : ["Javascript", "HTML", "CSS"], 
             "live_link" : "", 
             "github_link" : "https://github.com/harshay/fs_js_techdegree_project_5",        

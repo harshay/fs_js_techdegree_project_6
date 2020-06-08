@@ -83,8 +83,8 @@ app.get('/project/:id',(req,res) => {
     //set variables
     res.locals.data_obj_array = data.projects; 
     res.locals.project_title = res.locals.data_obj_array[req.params.id].project_name;   
-    res.locals.project_description = res.locals.data_obj_array[req.params.id].project_name;
-    res.locals.project_description = res.locals.data_obj_array[req.params.id].project_name;  
+    res.locals.project_description = res.locals.data_obj_array[req.params.id].description;
+    res.locals.project_description = res.locals.data_obj_array[req.params.id].description;  
     res.locals.technologies = res.locals.data_obj_array[req.params.id].technologies;  
     res.locals.project_images = res.locals.data_obj_array[req.params.id].img_urls;  
     res.locals.project_github_link = res.locals.data_obj_array[req.params.id].github_link;  
